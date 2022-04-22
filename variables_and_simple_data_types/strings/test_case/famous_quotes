@@ -1,0 +1,4 @@
+famous_person = '李白'
+poem = '"黄河之水天上来"'
+quote = f"{famous_person}曾说{poem}"
+print(quote)
