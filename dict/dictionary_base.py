@@ -43,3 +43,35 @@ dict[exist_key] = new_val
 '''
 alien_0['galaxy'] = 'Milky Way'
 print(alien_0)
+alien_0['tmp_station'] = 'moon'
+print(alien_0)
+# del dict[key] 通过 key 从字典中删除一个键值对
+del alien_0['tmp_station']
+print(alien_0)
+'''
+字典中的键值对较多的时候，使用合适的格式化的写法使得可读性变得更强
+dict = {
+    key1 : val1,
+    key2 : val2,
+}
+在每行键值对的最后用一个逗号 , 方便后续添加元素
+'''
+solar_stations = {
+    '1st' : 'Moon',
+    '2nd' : 'Pluto',
+    '3rd' : 'Mercury',
+}
+print(solar_stations['3rd'].upper())
+'''
+使用 dict[key] 当 key 不存在的时候，程序会报错
+用 dict.get(key,optional_val) 方法可以更安全地获取元素
+optional_val 是可选传参，当key对应的value不存在时返回 optional_val
+未定义 optional_val 而且 key 对应的元素不存在时，会返回 None
+这并非一个错误的信息，而是一个特殊的值，表示 值不存在
+'''
+second_station = solar_stations.get('2nd')
+print(second_station)
+fourth_station_with_notice = solar_stations.get('4th','solar 4th station is building ... ')
+print(fourth_station_with_notice)
+fourth_station = solar_stations.get('4th')
+print(fourth_station)
