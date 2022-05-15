@@ -35,8 +35,8 @@ print(get_full_name('bruce','victor','k'))
 '''
 def build_person(first_name,last_name,age='None') :  
     person = {
-        'first_name' : first_name,
-        'last_name' : last_name,
+        'first_name' : {first_name},
+        'last_name' : {last_name},
     }
     if age :
         person['age'] = age
