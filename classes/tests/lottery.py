@@ -38,6 +38,7 @@ class Lottery :
         while time < times :
             self.draw(draw_number=draw_number)
             time += 1
+        return
     
     def prized_ticket(self,ticket_numbers) :
         count = 0
