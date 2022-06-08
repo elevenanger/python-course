@@ -57,9 +57,9 @@ dict = {
 在每行键值对的最后用一个逗号 , 方便后续添加元素
 '''
 solar_stations = {
-    '1st' : 'Moon',
-    '2nd' : 'Pluto',
-    '3rd' : 'Mercury',
+    '1st': 'Moon',
+    '2nd': 'Pluto',
+    '3rd': 'Mercury',
 }
 print(solar_stations['3rd'].upper())
 '''

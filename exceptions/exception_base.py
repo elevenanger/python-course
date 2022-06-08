@@ -30,23 +30,35 @@ except ExceptionObject :
 Python 查找可以与异常信息相匹配的 except 块
 执行对应 except 块中的代码并继续执行后面的代码，程序不会中断
 '''
-try :
-    print(5/0)
-except ZeroDivisionError :
+try:
+    print(5 / 0)
+except ZeroDivisionError:
     print('0不能作为除数')
 
 print('输入两个数字，输出他们的商。')
 print('输入 q 退出程序')
-while True :
+while True:
     first_number = input('\n 第 1 个数字 ： ')
-    if first_number == 'q' : break
+    if first_number == 'q':
+        break
     second_number = input('\n 第 2 个数字 ： ')
-    if second_number == 'q' : break
+    if second_number == 'q':
+        break
     # 将可能出现异常的代码使用 try-except 包裹
-    try :
-        answer = int(first_number)/int(second_number)
-    except ZeroDivisionError :
+    try:
+        answer = int(first_number) / int(second_number)
+    except ZeroDivisionError:
         print('0不能作为除数')
-    # try-except-else 任何依赖于 try 中逻辑正常执行的代码会进入 else 块中
-    else :
+    else:
         print(answer)
+
+file_name = 'exception_base.py'
+try:
+    with open(file_name, encoding='utf-8') as file_obj:
+        content = file_obj.read()
+except FileNotFoundError:
+    print(f"{file_name} 文件不存在")
+else:
+    words = content.split()
+    num_words = len(words)
+    print(f"the file {file_name} has {num_words} words")
