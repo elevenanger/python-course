@@ -18,7 +18,13 @@ class NameTestCase(unittest.TestCase):
         """ 测试方法 eleven anger 是否生效"""
         formatted_name = get_formatted_name('eleven', 'anger')
         self.assertEqual(formatted_name, 'Eleven Anger')
+        # self.assertEqual(formatted_name, 'Anger')
         """设置断言，判断函数执行的结果是否符合预期的结果"""
+
+    """方法名必须以 test_ 开头，这样在运行 py 脚本时该方法将会自动执行"""
+    def test_first_middle_last_name(self):
+        formatted_name = get_formatted_name('eleven', 'anger', "2nd")
+        self.assertEqual(formatted_name, 'Eleven 2Nd Anger')
 
 
 if __name__ == '__main__':
