@@ -10,17 +10,20 @@
 '''
 
 from restaurant import Restaurant
-class IceCreamStand(Restaurant) :
-    
-    def __init__(self, restaurant_name, cuisine_type,flavours):
+
+
+class IceCreamStand(Restaurant):
+
+    def __init__(self, restaurant_name, cuisine_type, flavours):
         super().__init__(restaurant_name, cuisine_type)
         self.flavours = flavours
-    
-    def display_flavours(self) :
+
+    def display_flavours(self):
         print(f"{self.restaurant_name.title()} flavours: ")
-        for flavour in self.flavours :
+        for flavour in self.flavours:
             print(f"\t{flavour}")
 
-ice_cream_flavours = ['vanilla','galliano','rum']
-mcm_ice_cream_stand = IceCreamStand('MacDonald','fast food',ice_cream_flavours)
+
+ice_cream_flavours = ['vanilla', 'galliano', 'rum']
+mcm_ice_cream_stand = IceCreamStand('MacDonald', 'fast food', ice_cream_flavours)
 mcm_ice_cream_stand.display_flavours()
