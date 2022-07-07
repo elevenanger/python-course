@@ -6,16 +6,15 @@
 '''
 
 
-def person_info(first_name,last_name,**other_info) :
-    person = {}
-    person['first'] = first_name.title()
-    person['last'] = last_name.title()
-    for k,v in other_info.items() :
+def person_info(first_name, last_name, **other_info):
+    person = {'first': first_name.title(), 'last': last_name.title()}
+    for k, v in other_info.items():
         person[k] = v.title()
     return person
 
-def describe_person(person) :
+
+def describe_person(person):
     print(f"{person['first']} {person['last']} : ")
-    for k,v in person.items() :
-        if k == 'first' or k == 'last' : continue
+    for k, v in person.items():
+        if k == 'first' or k == 'last': continue
         print(f"\t{k} : {v}")

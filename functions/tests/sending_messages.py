@@ -8,15 +8,16 @@
 并将信息转移到 sent_message 列表
 '''
 
-
-messages = ['hello','darkness','my old friend']
+messages = ['hello', 'darkness', 'my old friend']
 sent_messages = []
 
-def send_messages(msgs) :
-    while msgs :
+
+def send_messages(msgs):
+    while msgs:
         msg = msgs.pop()
         print(msg)
         sent_messages.append(msg)
+
 
 send_messages(messages)
 

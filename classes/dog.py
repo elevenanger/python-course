@@ -10,8 +10,9 @@ class ClassName :
 使用 class 定义类
 类名首字母大写
 '''
+
+
 class Dog:
-    
     '''
     在类中所有的函数都称之为方法
     方法和函数的定义基本一致
@@ -31,7 +32,8 @@ class Dog:
     self 会自动传递，不需要显式地给此参数赋值
     
     '''
-    def __init__(self,name,age) :
+
+    def __init__(self, name, age):
         '''
         name 和 age 变量都有一个前缀 self.
         每个拥有 self. 前缀的变量对于类中的所有方法都是可用的
@@ -40,7 +42,7 @@ class Dog:
         '''
         self.name = name
         self.age = age
-    
+
     '''
     类中的普通方法
     因为不需要额外的信息
@@ -48,11 +50,13 @@ class Dog:
     在 dog 实例化完成后
     则可以使用 dog 实例中所有属性的信息
     '''
-    def sit(self) :
+
+    def sit(self):
         print(f"{self.name.title()} is sitting.")
-    
-    def roll_over(self) :
+
+    def roll_over(self):
         print(f"{self.name.title()} rolled over.")
+
 
 '''
 instance = Class(attr)
@@ -61,7 +65,7 @@ instance = Class(attr)
 给类的属性赋值
 Python 会自动调用 __init__() 方法创建实例
 '''
-my_dog = Dog('huang',2);
+my_dog = Dog('huang', 2);
 
 '''
 instance.attr 
@@ -83,14 +87,13 @@ my_dog.sit()
 每个实例的属性值不同
 调用类的方法将产生不同的结果
 '''
-hei = Dog('hei',3)
+hei = Dog('hei', 3)
 hei.roll_over()
 hei.sit()
 
+dogs = [my_dog, hei]
 
-dogs = [my_dog,hei]
-
-for dog in dogs :
+for dog in dogs:
     print('dog party!')
     dog.sit()
     dog.roll_over()

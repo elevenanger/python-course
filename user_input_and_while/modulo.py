@@ -9,10 +9,10 @@
 num1 % num2 
 取模运算
 '''
-numbers  = [11,23,43,545,12]
-for num in numbers :
+numbers = [11, 23, 43, 545, 12]
+for num in numbers:
     remainder = num % 2
-    if(remainder == 1) :
+    if (remainder == 1):
         print(f"{num} is an odd number ")
-    else :
+    else:
         print(f"{num} is an even number ")

@@ -14,17 +14,19 @@
 至少一次有曲目数量的函数调用
 '''
 
-def make_album(artist,title,number_of_songs=None) :
+
+def make_album(artist, title, number_of_songs=None):
     album = {}
     album['artist'] = artist.title()
     album['title'] = title.title()
-    if number_of_songs :
+    if number_of_songs:
         album['number_of_songs'] = number_of_songs
     return album
 
-lake_baikal = make_album('li jian','lake baikal')
-forest = make_album('george winston','forest',number_of_songs=16)
-vaper = make_album(artist='cloud cover',title='vaper',number_of_songs=7)
+
+lake_baikal = make_album('li jian', 'lake baikal')
+forest = make_album('george winston', 'forest', number_of_songs=16)
+vaper = make_album(artist='cloud cover', title='vaper', number_of_songs=7)
 
 print(lake_baikal)
 print(forest)

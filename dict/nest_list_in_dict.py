@@ -7,11 +7,12 @@
 
 # 银河铁道
 
-zodiac = ['Aries', 'Taurus', 'Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Ophiuchus','Sagittarius','Capricornus','Aquarius','Pisces']
+zodiac = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Ophiuchus', 'Sagittarius',
+          'Capricornus', 'Aquarius', 'Pisces']
 milky_railway = {
     'galaxy': 'Milky Way',
     'stations': zodiac,
 }
 
-for constellation in milky_railway['stations'] :
+for constellation in milky_railway['stations']:
     print(constellation)

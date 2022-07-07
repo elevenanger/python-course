@@ -7,11 +7,13 @@
 分别使用位置参数和关键字参数调用函数
 '''
 
-def make_shirt(size,text) :
+
+def make_shirt(size, text):
     print(f"new shirt \n \tsize : {size.upper()} \n\ttext : {text.title()}")
 
-make_shirt('m','world peace')
-make_shirt(size='L',text='super man')
+
+make_shirt('m', 'world peace')
+make_shirt(size='L', text='super man')
 
 '''
 修改 make_shirt() 函数
@@ -20,9 +22,12 @@ make_shirt(size='L',text='super man')
 分别制作 L 和 M 码 T恤 使用默认的文字
 制作一件任意尺码的T恤 使用其它的文字
 '''
-def make_shirt(size = 'L',text='I love Python') :
+
+
+def make_shirt(size='L', text='I love Python'):
     print(f"new shirt \n \tsize : {size.upper()} \n\ttext : {text.title()}")
-    
+
+
 make_shirt()
 make_shirt('m')
-make_shirt('s','love & peace')
+make_shirt('s', 'love & peace')

@@ -8,13 +8,11 @@
 2、编写该程序的一个版本通过 if 测试，另一个未通过 if  测试（未通过的不打印任何信息）
 '''
 
-
-
-alien_colors = ['red','yellow','green']
+alien_colors = ['red', 'yellow', 'green']
 green_bonus = 5
 dead_alien_color = 'green'
-if dead_alien_color in alien_colors and dead_alien_color == alien_colors[-1] :
+if dead_alien_color in alien_colors and dead_alien_color == alien_colors[-1]:
     print(f'you shut down a {dead_alien_color} alien, earned {green_bonus} points !')
 
-if dead_alien_color != 'green' :
-    print('') # do nothing 
+if dead_alien_color != 'green':
+    print('')  # do nothing

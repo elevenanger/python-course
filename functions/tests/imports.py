@@ -19,6 +19,6 @@ from printing_functions import *
 func_a()
 func_b()
 
-printing_functions.print_dict(color='red',shape='pantagram')
-pf.printing_function('charles','barkley')
+printing_functions.print_dict(color='red', shape='pantagram')
+pf.printing_function('charles', 'barkley')
 printing_function('call function directly')

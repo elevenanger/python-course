@@ -5,5 +5,5 @@
 @Desc    :   写一个无限循环的程序 运行它 使用 Ctrl-c 结束运行
 '''
 
-while True :
+while True:
     print('infinity')

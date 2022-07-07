@@ -6,32 +6,32 @@
 '''
 
 zhao = {
-    'name' : 'Zhao',
-    'index' : 1,
+    'name': 'Zhao',
+    'index': 1,
 }
 
 qian = {
-    'name' : 'Qian',
-    'index' : 2,
+    'name': 'Qian',
+    'index': 2,
 }
 
 sun = {
-    'name' : 'Sun',
-    'index' : '3',
+    'name': 'Sun',
+    'index': '3',
 }
 
 li = {
-    'name' : 'li',
-    'index' : '4',
+    'name': 'li',
+    'index': '4',
 }
 
 surnames = {
-    '1st' : zhao,
-    '2nd' : qian,
-    '3rd' : sun,
-    '4th' : li,
+    '1st': zhao,
+    '2nd': qian,
+    '3rd': sun,
+    '4th': li,
 }
 
-for k,v in surnames.items() :
-    print (f"name {v['name']}")
-    print (f"index {v['index']}")
+for k, v in surnames.items():
+    print(f"name {v['name']}")
+    print(f"index {v['index']}")

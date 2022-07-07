@@ -8,12 +8,11 @@
 3、遍历列表，确保是独立的两个列表
 '''
 
-
-pizzas = ['black peper','orleans chicken','seafood']
+pizzas = ['black peper', 'orleans chicken', 'seafood']
 new_pizzas = pizzas[:]
 pizzas.append('tomato')
 new_pizzas.append('potato')
-for pizza in pizzas :
+for pizza in pizzas:
     print(f'pizza: {pizza}')
-for pizza in new_pizzas :
+for pizza in new_pizzas:
     print(f'new_pizza: {pizza}')

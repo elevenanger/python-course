@@ -8,13 +8,12 @@
 3、如果是 red 获得 15 分 
 '''
 
-
-alien_colors = ['red','yellow','green']
-for color in alien_colors :
+alien_colors = ['red', 'yellow', 'green']
+for color in alien_colors:
     alien_color = color
-    if alien_color == 'green' :
+    if alien_color == 'green':
         print('you got 5 points')
-    elif alien_color == 'yellow' :
+    elif alien_color == 'yellow':
         print('you got 10 points')
-    elif alien_color == 'red' :
+    elif alien_color == 'red':
         print('you got 15 points')

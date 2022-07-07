@@ -5,8 +5,7 @@
 Desc     :   列表错误一般发生在操作不存在的元素
 '''
 
-
-recipe = ['dumpling','tomato','noodle','rice','egg','tuna']
+recipe = ['dumpling', 'tomato', 'noodle', 'rice', 'egg', 'tuna']
 recipe.remove('pie')
 print(recipe[6])
 print(recipe[2])

@@ -7,6 +7,6 @@
 
 file_name = 'guest.txt'
 
-with open(file_name,'w') as file_obj :
+with open(file_name, 'w') as file_obj:
     name = input("What's your name : ")
     file_obj.write(f'{name}\n')

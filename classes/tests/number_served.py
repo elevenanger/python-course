@@ -14,21 +14,21 @@
 '''
 
 
-class Restaurant :
-    
-    def __init__(self,restaurant_name,cuisine_type) :
+class Restaurant:
+
+    def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name.title()
         self.cuisine_type = cuisine_type
         self.number_served = 0
-        
-    def set_number_served(self,number) :
+
+    def set_number_served(self, number):
         self.number_served = number
-    
-    def increment_number_served(self,number) :
+
+    def increment_number_served(self, number):
         self.number_served += number
 
 
-restaurant = Restaurant('he ping','chinese food')
+restaurant = Restaurant('he ping', 'chinese food')
 print(restaurant.number_served)
 restaurant.set_number_served(10)
 print(restaurant.number_served)

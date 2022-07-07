@@ -7,6 +7,6 @@
 也可以按 Ctrl-c 退出程序运行
 '''
 
-millions = list(range(1,1_000_002,100_000))
-for number in millions :
+millions = list(range(1, 1_000_002, 100_000))
+for number in millions:
     print(number)

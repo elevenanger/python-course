@@ -10,7 +10,7 @@
 msg = 'how many peoples ?'
 number = input(msg)
 number = int(number)
-if number > 8 :
+if number > 8:
     print('you need to wait for a moment')
-else :
+else:
     print('come with me')

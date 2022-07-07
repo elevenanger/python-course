@@ -8,20 +8,19 @@
 3、一个版本是 if 条件判断，另一个版本通过 else 条件判断
 '''
 
-
-alien_colors = ['red','yellow','green']
+alien_colors = ['red', 'yellow', 'green']
 green_points = 5
 other_points = 10
-for color in alien_colors :
+for color in alien_colors:
     dead_alien_color = color
-    if dead_alien_color == 'green' :
+    if dead_alien_color == 'green':
         print(f'you got {green_points}!')
-    else :
+    else:
         print(f'you got {other_points}!')
-        
-for color in alien_colors :
+
+for color in alien_colors:
     dead_alien_color = color
-    if dead_alien_color != 'green' :
+    if dead_alien_color != 'green':
         print(f'you got {other_points}!')
-    else :
+    else:
         print(f'you got {green_points}!')

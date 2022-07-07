@@ -5,7 +5,6 @@
 @Desc    :   写文件
 '''
 
-
 file_name = 'write_something.txt'
 
 '''
@@ -23,7 +22,7 @@ r+ 读写权限
 但是需要注意的是 w 模式打开一个已有的文件时会将文件中的内容清空
 对 file_obj 方法使用 write() 方法将字符串写入文件中
 '''
-with open(file_name,'w') as file_obj :
+with open(file_name, 'w') as file_obj:
     file_obj.write('say something ...')
 
 '''
@@ -33,7 +32,7 @@ with open(file_name,'w') as file_obj :
 write() 方法往文件末尾追加字符串
 需要在程序中进行换行处理
 '''
-with open(file_name,'w') as file_obj :
+with open(file_name, 'w') as file_obj:
     file_obj.write('say something else ...\n')
     file_obj.write('say something else again ... \n')
 
@@ -42,5 +41,5 @@ with open(file_name,'w') as file_obj :
 如果文件不存在
 Python 也会自动创建文件
 '''
-with open(file_name,'a') as file_obj :
+with open(file_name, 'a') as file_obj:
     file_obj.write('append something ... \n')

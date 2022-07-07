@@ -9,10 +9,10 @@
 餐厅的菜单变化，替换了两种食物，对元组重新赋值，遍历新菜单
 '''
 
-food_menu = ('parrot','pizza','fish','meat','noodle')
-for food in food_menu :
+food_menu = ('parrot', 'pizza', 'fish', 'meat', 'noodle')
+for food in food_menu:
     print(f'our food : {food}')
 # food[1] = 'chicken'
-food_menu = ('chicken','potato','fish','meat','noodle')
-for food in food_menu :
+food_menu = ('chicken', 'potato', 'fish', 'meat', 'noodle')
+for food in food_menu:
     print(f'our new food : {food}')

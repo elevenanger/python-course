@@ -9,13 +9,15 @@
 分别使用不同数量的馅料
 '''
 
-def make_sandwich(*stuffings) :
+
+def make_sandwich(*stuffings):
     print('----new order----')
     print(stuffings)
-    for stuff in stuffings :
+    for stuff in stuffings:
         print(f'\tadding stuffing : {stuff}')
     print('done!')
 
-make_sandwich('drumstick','ham')
-make_sandwich('ham','tomato','tuna')
-make_sandwich('greens','turkey','pork','bacon')
+
+make_sandwich('drumstick', 'ham')
+make_sandwich('ham', 'tomato', 'tuna')
+make_sandwich('greens', 'turkey', 'pork', 'bacon')

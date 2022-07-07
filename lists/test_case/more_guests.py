@@ -9,12 +9,12 @@
 使用一个新的信息列表，为每个人发出不同的邀请
 '''
 
-emperors = ['mao','qin','li']
+emperors = ['mao', 'qin', 'li']
 emperors.append('gao')
-emperors.insert(0,'liu')
-emperors.insert(2,'xi')
+emperors.insert(0, 'liu')
+emperors.insert(2, 'xi')
 new_msg = 'Sir , come to my dinner today.'
-guest_order = [1,2,3,4,5,6]
+guest_order = [1, 2, 3, 4, 5, 6]
 print(f'{guest_order[0]}.{emperors[0].title()} {new_msg}')
 print(f'{guest_order[1]}.{emperors[1].title()} {new_msg}')
 print(f'{guest_order[2]}.{emperors[2].title()} {new_msg}')

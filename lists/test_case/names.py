@@ -7,7 +7,7 @@
 分别打印每一个姓名，一次打印一个
 '''
 
-names = ['zhao','qian','sun','li']
+names = ['zhao', 'qian', 'sun', 'li']
 print(names[0])
 print(names[1])
 print(names[-2])

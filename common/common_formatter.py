@@ -6,8 +6,8 @@
 '''
 
 
-def format_index(index) :
-    if(index == 1) : return f'1st'
-    if(index == 2) : return f'2nd'
-    if(index == 3) : return f'3rd'
+def format_index(index):
+    if (index == 1): return f'1st'
+    if (index == 2): return f'2nd'
+    if (index == 3): return f'3rd'
     return f'{index}th'

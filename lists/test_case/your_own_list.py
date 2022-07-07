@@ -9,8 +9,7 @@
 
 from email import message
 
-
-transportation = ['car','airplane','tank','tractor'] 
+transportation = ['car', 'airplane', 'tank', 'tractor']
 message = f'I wanna have a {transportation[0]}'
 print(message)
 message = f'Take a {transportation[1]} to faraway'

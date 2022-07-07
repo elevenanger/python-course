@@ -8,18 +8,17 @@
 3、使用循环打印国家名
 '''
 
-
 rivers = {
-    'china' : 'huanghe',
-    'brazil' : 'amazon',
-    'american' : 'mississippi',
+    'china': 'huanghe',
+    'brazil': 'amazon',
+    'american': 'mississippi',
 }
 
-for country , river in rivers.items() :
+for country, river in rivers.items():
     print(f'{river.title()} in {country.title()}')
 
-for country in rivers.keys() :
+for country in rivers.keys():
     print(country.title())
 
-for river in rivers.values() :
+for river in rivers.values():
     print(river.title())

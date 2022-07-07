@@ -9,19 +9,18 @@
 遍历列表，打印每个宠物所有的信息
 '''
 
-
 pikachu = {
-    'name' : 'Pikachu',
-    'owner' : 'Zhi',
+    'name': 'Pikachu',
+    'owner': 'Zhi',
 }
 
 meowth = {
-    'name' : 'Meowth',
-    'owner' : 'James',
+    'name': 'Meowth',
+    'owner': 'James',
 }
 
-pets = [pikachu,meowth]
+pets = [pikachu, meowth]
 
-for pet in pets :
+for pet in pets:
     print(f"Name {pet['name']}")
     print(f"Owner {pet['owner']}")

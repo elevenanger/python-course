@@ -7,19 +7,18 @@
 2、移除列表中的所有元素 确保输出正确的信息
 '''
 
-
 msg = 'have a nice day !'
 special_msg = 'do you want to see some report?'
 get_new_user_msg = 'we need some users.'
-user_names = ['carl','kevin','kim','admin','howdy']
-while user_names :
+user_names = ['carl', 'kevin', 'kim', 'admin', 'howdy']
+while user_names:
     removed_user = user_names.pop()
-    if removed_user == 'admin' :
+    if removed_user == 'admin':
         print(f'{removed_user} , {special_msg}')
-    else :
+    else:
         print(f'{removed_user} , {msg}')
 print(user_names)
-if user_names :
+if user_names:
     print('good')
-else :
+else:
     print(get_new_user_msg)

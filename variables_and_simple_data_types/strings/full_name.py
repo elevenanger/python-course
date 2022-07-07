@@ -1,7 +1,6 @@
 from email import message
 from turtle import title
 
-
 first_name = "anger"
 last_name = "liu"
 # 在字符串中插入变量
@@ -13,5 +12,5 @@ print(full_name)
 # full_name.title() 将变量调用title() 方法的值转换成字符串进行拼接
 print(f"Hello,{full_name.title()} !")
 # 将 f 字符串赋值给变量
-message = f"this is a message".title(),{full_name}
+message = f"this is a message".title(), {full_name}
 print(message)

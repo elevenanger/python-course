@@ -9,6 +9,6 @@
 
 file_name = 'learning_python.txt'
 
-with open(file_name) as file_obj :
-    for line in file_obj :
-        print(line.rstrip().replace('Python','C'))
+with open(file_name) as file_obj:
+    for line in file_obj:
+        print(line.rstrip().replace('Python', 'C'))

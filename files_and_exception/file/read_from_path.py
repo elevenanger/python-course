@@ -10,7 +10,7 @@
 with open('file_path/filename') as file_obj :
 '''
 relative_path = 'files_path/'
-with open(f'{relative_path}content.txt') as relative_input :
+with open(f'{relative_path}content.txt') as relative_input:
     content = relative_input.read()
     print(content.title())
 
@@ -18,6 +18,6 @@ with open(f'{relative_path}content.txt') as relative_input :
 从决定路径读取文件信息
 '''
 absolute_path = '/Users/liuanglin/Projects/python-course/files_and_exception/file/files_path/'
-with open(f'{absolute_path}content.txt') as absolute_input :
+with open(f'{absolute_path}content.txt') as absolute_input:
     abs_content = absolute_input.read()
     print(f'absolute {abs_content.title()}')

@@ -10,9 +10,9 @@
 
 msg = 'have a nice day !'
 special_msg = 'do you want to see some report?'
-user_names = ['carl','kevin','kim','admin','howdy']
-for user_name in user_names :
-    if user_name == 'admin' :
+user_names = ['carl', 'kevin', 'kim', 'admin', 'howdy']
+for user_name in user_names:
+    if user_name == 'admin':
         print(f'{user_name} , {special_msg}')
-    else :
+    else:
         print(f'{user_name} , {msg}')

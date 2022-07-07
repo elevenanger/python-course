@@ -1,6 +1,6 @@
 # 在代码中插入空白字符
 # 空白字符以 \ 开头
-line_breaker = "Python \n hehe" 
+line_breaker = "Python \n hehe"
 print(line_breaker)
 tab_line = "Python\tpy"
 print(tab_line)

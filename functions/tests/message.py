@@ -6,9 +6,11 @@
 打印在本节学习到的内容
 '''
 
-def display_message() :
+
+def display_message():
     function = '有名称的处理特定逻辑的代码块'
     definition = 'def func(args) :'
     print(f"函数是： {function} \n 定义函数 : {definition}")
+
 
 display_message()

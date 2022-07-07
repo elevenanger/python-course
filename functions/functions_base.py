@@ -13,8 +13,12 @@ def func() :
 定义好的函数可以在程序别处使用
 func()
 '''
+
+
 def greet_user():
     print("hello sir.")
+
+
 # 调用函数
 greet_user()
 
@@ -25,7 +29,11 @@ def func(arg1,arg2,...,argn)
 调用函数：
 func(val1,val2,...,valn)
 '''
-def greet_user(name,age) :
+
+
+def greet_user(name, age):
     print(f'hello {name.title()}')
     print(age)
-greet_user('kevin',22)
+
+
+greet_user('kevin', 22)

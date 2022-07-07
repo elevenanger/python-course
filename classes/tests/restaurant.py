@@ -12,19 +12,20 @@ __init__() 方法需要有两个属性 restaurant_name 和 cuisine_type
 '''
 
 
-class Restaurant :
-    
-    def __init__(self,restaurant_name,cuisine_type) :
+class Restaurant:
+
+    def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name.title()
         self.cuisine_type = cuisine_type
-    
-    def describe_restaurant(self) :
+
+    def describe_restaurant(self):
         print(f"{self.restaurant_name} cooking {self.cuisine_type}")
-    
-    def open_restaurant(self) :
+
+    def open_restaurant(self):
         print(f"{self.restaurant_name} open for business!")
-        
-peace_restaurant = Restaurant('peace restaurant','Chinese Food')
+
+
+peace_restaurant = Restaurant('peace restaurant', 'Chinese Food')
 
 print(peace_restaurant.restaurant_name)
 print(peace_restaurant.cuisine_type)

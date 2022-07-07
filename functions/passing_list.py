@@ -5,22 +5,27 @@
 @Desc    :   将 list 作为参数传入函数
 '''
 
-def greet_users(names) :
-    for name in names :
+
+def greet_users(names):
+    for name in names:
         print(f'hello {name.title()}')
 
-usernames = ['carl','steve']
+
+usernames = ['carl', 'steve']
 greet_users(names=usernames)
 
 '''
 可以在函数中对传入的参数进行修改
 这些变更将会永久有效
 '''
-unchecked_users = ['carl','kevin','carter','williams']
+unchecked_users = ['carl', 'kevin', 'carter', 'williams']
 checked_users = []
-def check_user(users) :
-        while users :
-            checked_users.append(users.pop())
+
+
+def check_user(users):
+    while users:
+        checked_users.append(users.pop())
+
 
 check_user(unchecked_users)
 print(unchecked_users)
@@ -33,7 +38,7 @@ print(checked_users)
 因为拷贝列表需要额外的存储空间和计算资源
 尤其是对于大量数据的列表进行拷贝操作
 '''
-unchecked_users = ['carl','kevin','carter','williams']
+unchecked_users = ['carl', 'kevin', 'carter', 'williams']
 checked_users = []
 check_user(unchecked_users[:])
 print(unchecked_users)

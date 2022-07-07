@@ -14,21 +14,23 @@ roll 10次
 
 from random import randint
 
-class Die :
-    
-    def __init__(self,sides=6) :
+
+class Die:
+
+    def __init__(self, sides=6):
         self.sides = sides
-    
-    def roll_dice(self) :
-        print(randint(1,self.sides))
-    
-    def roll_dice_times(self,time) :
+
+    def roll_dice(self):
+        print(randint(1, self.sides))
+
+    def roll_dice_times(self, time):
         print(f"roll {self.sides} sides dice {time} times")
         index = 0
         while index < time:
             self.roll_dice()
             index += 1
-        
+
+
 six_sides_dice = Die()
 six_sides_dice.roll_dice_times(10)
 ten_sides_dice = Die(10)

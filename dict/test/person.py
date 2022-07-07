@@ -7,9 +7,9 @@
 '''
 
 bat_man = {
-    'first_name' : 'Bruce',
-    'last_name' : 'Wayne',
-    'living_city' : 'Gotham',
+    'first_name': 'Bruce',
+    'last_name': 'Wayne',
+    'living_city': 'Gotham',
 }
 
 print(bat_man['first_name'])

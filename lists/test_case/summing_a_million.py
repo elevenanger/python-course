@@ -7,8 +7,7 @@
 sum() 求和
 '''
 
-
-millions = range(1,1_000_001)
+millions = range(1, 1_000_001)
 print(min(millions))
 print(max(millions))
 print(sum(millions))

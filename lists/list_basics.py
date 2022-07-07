@@ -6,7 +6,7 @@
 '''
 
 # list 的格式 ['item','item']
-animals = ['dog','cat','  frog  ','seal','whale']
+animals = ['dog', 'cat', '  frog  ', 'seal', 'whale']
 print(animals)
 
 '''
@@ -17,7 +17,7 @@ index 从 0 开始
 '''
 print(f"{animals[0]},{animals[1].title()},{animals[2].strip()}")
 # list 中可以存放任何数据
-anything = ['puffy','vegetables','strawberry',10,3.14,False]
+anything = ['puffy', 'vegetables', 'strawberry', 10, 3.14, False]
 # 索引值为负数为倒序索引 -1 表示数组中的最后一个元素，-2 倒数第二个，以此类推
 print(anything[-1])
 print(anything[-2])

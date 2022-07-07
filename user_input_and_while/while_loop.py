@@ -10,7 +10,7 @@ while condition :
     do something
 '''
 number = 0
-while number < 10 :
+while number < 10:
     number += 1
     print(number)
 
@@ -19,6 +19,6 @@ while number < 10 :
 '''
 prompt = 'say something '
 msg = ''
-while msg != 'quit' :
+while msg != 'quit':
     msg = input(prompt)
     print(f'\n{msg}')

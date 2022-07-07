@@ -9,9 +9,9 @@
 
 from restaurant import Restaurant
 
-shun_feng = Restaurant('shun feng','yue')
-xiang_zhi_yuan = Restaurant('xiang zhi yuan','xiang')
-xiao_si_chuan = Restaurant('xiao si chuan','chuan')
+shun_feng = Restaurant('shun feng', 'yue')
+xiang_zhi_yuan = Restaurant('xiang zhi yuan', 'xiang')
+xiao_si_chuan = Restaurant('xiao si chuan', 'chuan')
 
 shun_feng.describe_restaurant()
 xiang_zhi_yuan.describe_restaurant()

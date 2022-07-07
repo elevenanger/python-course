@@ -9,8 +9,7 @@
 向仍然在你列表中发出新的邀请信息
 '''
 
-
-emperors = ['mao','qin','li']
+emperors = ['mao', 'qin', 'li']
 busy_man = emperors.pop()
 print(busy_man.title())
 new_man = 'wang'

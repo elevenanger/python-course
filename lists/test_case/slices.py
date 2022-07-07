@@ -13,4 +13,4 @@
 numbers = list(range(9))
 print(f'first three element : {numbers[:3]}')
 print(f'middle number : {numbers[3:6]}')
-print(f'last three : {numbers[-3:]}' )
+print(f'last three : {numbers[-3:]}')

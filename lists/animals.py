@@ -7,10 +7,10 @@
 最后描述它们的共同特征
 '''
 
-wild_cats = ['lion','leopard','tiger']
-desc = ['king of the jungle','neaty hunter','king of beasts']
+wild_cats = ['lion', 'leopard', 'tiger']
+desc = ['king of the jungle', 'neaty hunter', 'king of beasts']
 index = 0
-for cat in wild_cats :
+for cat in wild_cats:
     print(f'{cat.title()} is {desc[index]}')
     index = index + 1
 print('They are all cats.')

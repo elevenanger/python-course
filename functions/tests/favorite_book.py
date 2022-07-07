@@ -7,6 +7,9 @@
 打印一条包括此参数的消息
 '''
 
-def favorite_book(title) :
+
+def favorite_book(title):
     print(f"我最喜欢的书：《{title}》")
+
+
 favorite_book("基督山伯爵")

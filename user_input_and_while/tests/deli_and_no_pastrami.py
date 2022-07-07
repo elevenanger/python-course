@@ -11,10 +11,10 @@
 全部移动完成后，打印完成的三明治
 '''
 
-sandwich_orders = ['tuna','ham','turkey']
+sandwich_orders = ['tuna', 'ham', 'turkey']
 finished_sandwiches = []
 
-while sandwich_orders :
+while sandwich_orders:
     cooking = sandwich_orders.pop()
     print(f'{cooking.title()} sandwich is making ...')
     finished_sandwiches.append(cooking)
@@ -27,11 +27,11 @@ print(f'Freshly baked sandwiches {finished_sandwiches}')
 打印信息 pastrami 三明治已经售罄
 使用 while 循环将列表中的 pastrami 三明治全部移除
 '''
-for number in range(3) :
-    finished_sandwiches.insert(number,'pastrami')
+for number in range(3):
+    finished_sandwiches.insert(number, 'pastrami')
 print(finished_sandwiches)
 
 print('pastramies are sold out.')
-while 'pastrami' in finished_sandwiches :
+while 'pastrami' in finished_sandwiches:
     finished_sandwiches.remove('pastrami')
 print(finished_sandwiches)

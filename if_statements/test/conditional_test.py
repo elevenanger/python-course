@@ -7,17 +7,17 @@
 三个为 true ，三个 false
 '''
 
-zoo = ['seal','giraffe','tiger','lion']
+zoo = ['seal', 'giraffe', 'tiger', 'lion']
 print('is seal in zoo , I guess True')
 print('seal' in zoo)
 print('is zoo[2] == "tiger" , I guess true')
 print(zoo[2] == 'tiger')
 print('is lion in zoo , I guess true')
-for animal in zoo :
-    if animal == 'lion' :
+for animal in zoo:
+    if animal == 'lion':
         print(animal == 'lion')
 
-odds = [1,3,5,7,9]
+odds = [1, 3, 5, 7, 9]
 print('2 is a odd , I guess False')
 print(2 in odds)
 print('8 is bigger than odd list last number, I guess False')

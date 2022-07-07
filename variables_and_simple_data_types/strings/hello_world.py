@@ -1,7 +1,7 @@
 # 创建变量
 message = "hello world!"
 # 打印变量
-print (message)
+print(message)
 # 改变变量的值
 message = "hello again"
 print(message)

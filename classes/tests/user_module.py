@@ -10,27 +10,27 @@ Admin 放在另一个 module 中
 
 
 class User:
-    
-    def __init__(self,first_name,last_name,gender) :
+
+    def __init__(self, first_name, last_name, gender):
         self.first_name = first_name.title()
         self.last_name = last_name.title()
         self.gender = gender
         self.login_attempts = 0
-    
-    def describe_user(self) :
-        if self.gender == 'male' :
+
+    def describe_user(self):
+        if self.gender == 'male':
             print(f'{self.first_name} {self.last_name} is a man')
-        else :
+        else:
             print(f'{self.first_name} {self.last_name} is a woman')
-            
-    def greeting_user(self) :
-        if self.gender == 'male' :
+
+    def greeting_user(self):
+        if self.gender == 'male':
             print(f'Hello Mr {self.last_name}')
-        else :
+        else:
             print(f'Hello Mrs {self.last_name}')
-    
-    def increment_login_attempts(self) :
+
+    def increment_login_attempts(self):
         self.login_attempts += 1
-    
-    def reset_login_attempts(self) :
+
+    def reset_login_attempts(self):
         self.login_attempts = 0

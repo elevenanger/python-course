@@ -5,11 +5,14 @@
 @Desc    :   随便定义的模块和函数集。。。 
 '''
 
-def func_a() :
+
+def func_a():
     print('another_module.func_a()')
 
-def func_b() :
+
+def func_b():
     print('another_module.func_b()')
-    
-def func_b() :
+
+
+def func_b():
     print('another_module.func_c()')

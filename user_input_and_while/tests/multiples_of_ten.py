@@ -8,7 +8,7 @@
 
 msg = 'please input a number : '
 number = int(input(msg))
-if number != 0 and number % 10 == 0 :
+if number != 0 and number % 10 == 0:
     print(f"{number} is multiples of 10 ")
-else :
+else:
     print(f"{number} is not multiples of 10 ")

@@ -6,12 +6,13 @@
 '''
 
 
-def printing_function(*args) :
+def printing_function(*args):
     print('printing_functions.printing_function() :')
-    for arg in args :
+    for arg in args:
         print(f'\t{arg}')
-        
-def print_dict(**args) :
+
+
+def print_dict(**args):
     print('printing_functions.print_dict()')
-    for k,v in args.items() :
+    for k, v in args.items():
         print(f'\t{k.title()} {v.title()}')

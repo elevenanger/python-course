@@ -23,11 +23,11 @@ print(numbers[-2:])
 print(numbers[2::3])
 
 # 遍历子列表
-for number in numbers[1:5] :
+for number in numbers[1:5]:
     print(number)
 
 # 使用 new_list = from_list[:] 拷贝整个列表
 new_numbers = numbers[:]
 new_numbers.pop()
-numbers.insert(1,10)
-print(f'{new_numbers},{numbers}') # 打印列表，确认是两个独立的列表
+numbers.insert(1, 10)
+print(f'{new_numbers},{numbers}')  # 打印列表，确认是两个独立的列表

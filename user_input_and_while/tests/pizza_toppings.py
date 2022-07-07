@@ -11,10 +11,10 @@
 prompt = 'enter the toppings you want : '
 toppings = []
 flag = True
-while flag :
+while flag:
     topping = input(prompt)
-    if topping == 'quit' :
+    if topping == 'quit':
         print(toppings)
         flag = False
-    else :
+    else:
         toppings.append(topping)

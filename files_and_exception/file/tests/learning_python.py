@@ -12,17 +12,16 @@
 3、将文件中的行存储在 list 中，遍历 list 打印
 '''
 
-
 file_name = 'learning_python.txt'
 
-with open(file_name) as file_obj :
+with open(file_name) as file_obj:
     print(file_obj.read())
 
-with open(file_name) as file_obj :
-    for line in file_obj :
+with open(file_name) as file_obj:
+    for line in file_obj:
         print(f"lines {line.rstrip()}")
-        
-with open(file_name) as file_obj :
+
+with open(file_name) as file_obj:
     lines = file_obj.readlines()
-    for line in lines :
+    for line in lines:
         print(f"lines list {line.rstrip()}")

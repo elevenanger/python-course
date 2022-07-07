@@ -8,12 +8,12 @@
 dream_vacations = {}
 active = True
 
-while active :
+while active:
     name = input("What's your name : ")
     place = input("What's your dream place : ")
-    if place == 'nowhere' :
+    if place == 'nowhere':
         break
     dream_vacations[name] = place
 
-for name , place in dream_vacations.items() :
+for name, place in dream_vacations.items():
     print(f"{name}'s dream place is {place}")

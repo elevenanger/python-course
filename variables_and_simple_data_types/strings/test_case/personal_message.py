@@ -1,6 +1,5 @@
 from email import message
 
-
 name = "Anger"
 message_head = "Hello "
 message_tail = "have a nice day."

@@ -7,10 +7,12 @@
 打印每一条信息
 '''
 
-messages = ['hello','darkness','my old friend']
+messages = ['hello', 'darkness', 'my old friend']
 
-def show_message(msgs) :
-    for msg in msgs :
+
+def show_message(msgs):
+    for msg in msgs:
         print(msg.title())
+
 
 show_message(messages)

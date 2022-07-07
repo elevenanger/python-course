@@ -11,10 +11,10 @@ for element in list :
     operate element
 end 
 '''
-places = ['Wuyang','Xizang','Moscow','Hangzhou','Xinjiang']
+places = ['Wuyang', 'Xizang', 'Moscow', 'Hangzhou', 'Xinjiang']
 count = 0;
-for place in places :
-    count = count + 1 
+for place in places:
+    count = count + 1
     print(f'{count}.{place.title()}, nice place!')
 # 无缩进代码则结束循环
 print(count)

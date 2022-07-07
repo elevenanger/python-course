@@ -6,6 +6,6 @@
 使用 for 遍历打印列表
 '''
 
-odd_numbers = list(range(1,20,2))
-for number in odd_numbers :
+odd_numbers = list(range(1, 20, 2))
+for number in odd_numbers:
     print(number)

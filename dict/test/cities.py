@@ -8,24 +8,24 @@
 '''
 
 cities = {
-    'Chang Sha' : {
-        'location' : 'South',
-        'population' : 100_479_00,
-        'fact' : 'star city',
+    'Chang Sha': {
+        'location': 'South',
+        'population': 100_479_00,
+        'fact': 'star city',
     },
-    'Bei Jing' : {
-        'location' : 'North',
-        'population' : 215_360_00,
-        'fact' : 'capital',
+    'Bei Jing': {
+        'location': 'North',
+        'population': 215_360_00,
+        'fact': 'capital',
     },
-    'Chong Qing' : {
-        'location' : 'West',
-        'population' : 745_760_0,
-        'fact' : 'mountain city',
+    'Chong Qing': {
+        'location': 'West',
+        'population': 745_760_0,
+        'fact': 'mountain city',
     }
 }
 
-for city,info in cities.items() :
+for city, info in cities.items():
     print(city.upper())
-    for k,v in info.items() :
+    for k, v in info.items():
         print(f"\t{k}\t{v}")

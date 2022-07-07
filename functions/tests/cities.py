@@ -11,9 +11,11 @@
 至少有一个不在默认国家
 '''
 
-def describe_city(city_name,country='中国') :
+
+def describe_city(city_name, country='中国'):
     print(f"{country} - {city_name}")
+
 
 describe_city('大理')
 describe_city('长沙')
-describe_city('西伯利亚','俄罗斯')
+describe_city('西伯利亚', '俄罗斯')

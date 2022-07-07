@@ -8,21 +8,21 @@
 '''
 
 kg = {
-    'first_name' : 'Kevin',
-    'last_name' : 'Garnnet',
-    'team' : 'Celtics',
+    'first_name': 'Kevin',
+    'last_name': 'Garnnet',
+    'team': 'Celtics',
 }
 
 aj = {
-    'first_name' : 'Michael',
-    'last_name' : 'Jordan',
-    'team' : 'Bulls',
+    'first_name': 'Michael',
+    'last_name': 'Jordan',
+    'team': 'Bulls',
 }
 
 people = {
-    'aj' : aj,
-    'kg' : kg,
+    'aj': aj,
+    'kg': kg,
 }
 
-for  k ,v in people.items() :
+for k, v in people.items():
     print(f"{v['first_name']} {v['last_name']} take the championship in {v['team'].title()}")

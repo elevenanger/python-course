@@ -11,16 +11,16 @@
 2、如果没有做出选择，邀请他们选择
 '''
 
-candidates = ['zhao','qian','sun','li']
+candidates = ['zhao', 'qian', 'sun', 'li']
 
 favorite_language = {
-    'zhao' : 'java',
-    'qian' : 'python',
-    'sun' : 'rust',
+    'zhao': 'java',
+    'qian': 'python',
+    'sun': 'rust',
 }
 
-for name in candidates :
-    if name in favorite_language.keys() :
+for name in candidates:
+    if name in favorite_language.keys():
         print(f'{name.title()} tks')
-    else :
+    else:
         print(f'{name.title()} please poll for your favorite language')

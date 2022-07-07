@@ -9,12 +9,12 @@ questionnair = {}
 
 active = True
 
-while active :
+while active:
     name = input("What's your name : ")
     age = input("How old are you : ")
     questionnair[name] = int(age)
-    if questionnair[name] > 30 :
+    if questionnair[name] > 30:
         active = False
 
-for name ,age in questionnair.items() :
+for name, age in questionnair.items():
     print(f'{name} is {age} years old')

@@ -6,6 +6,6 @@
 for 循环打印每一个数字
 '''
 
-numbers = [value * 3 for value in range(3,31)]
-for number in numbers :
+numbers = [value * 3 for value in range(3, 31)]
+for number in numbers:
     print(number)

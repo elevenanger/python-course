@@ -8,11 +8,10 @@
 将他们的原因添加到文件中
 '''
 
-
 file_name = 'programming_poll.txt'
 
-with open(file_name,'a') as file_obj :
-    while True :
+with open(file_name, 'a') as file_obj:
+    while True:
         reason = input('why you like programming : ')
-        if reason == 'quit' : break
+        if reason == 'quit': break
         file_obj.write(f'{reason}\n')

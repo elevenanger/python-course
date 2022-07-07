@@ -23,4 +23,3 @@ class AnonymousSurvey:
         print("问卷答案：")
         for res in self.response:
             print(f"- {res}")
-            

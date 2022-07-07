@@ -7,10 +7,10 @@
 2、五个独立的 if 语句，检查某个水果是否在列表中
 '''
 
-favorite_fruits = ['grape','pear','peach']
-fruits = ['apple','lychee','grape','peach','banana']
-for fruit in fruits :
-    if fruit in favorite_fruits :
+favorite_fruits = ['grape', 'pear', 'peach']
+fruits = ['apple', 'lychee', 'grape', 'peach', 'banana']
+for fruit in fruits:
+    if fruit in favorite_fruits:
         print(f'you really like {fruit} !')
     else:
         print(f'you do not like {fruit} .')

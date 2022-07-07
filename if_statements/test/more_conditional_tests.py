@@ -11,15 +11,15 @@
 6、判断一个元素不在列表中
 '''
 
-canteen = ['egg','mushroom','chicken','banana']
-celtics = [5,9,34,20]
+canteen = ['egg', 'mushroom', 'chicken', 'banana']
+celtics = [5, 9, 34, 20]
 print('egg'.lower == canteen[0].upper)
 print('egg'.upper != canteen[0].lower)
-print(1==celtics[1])
-print(1!=celtics[1])
-print(1>celtics[1])
-print(1<celtics[1])
-print(10>=celtics[1])
-print(10<=celtics[1])
+print(1 == celtics[1])
+print(1 != celtics[1])
+print(1 > celtics[1])
+print(1 < celtics[1])
+print(10 >= celtics[1])
+print(10 <= celtics[1])
 print('tomato' in canteen and 20 in celtics)
 print('tomato' not in canteen or 20 in celtics)

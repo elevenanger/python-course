@@ -14,7 +14,7 @@ dict = {key_1:value_1,key_2:value_2,...,key_n:value_n}
 从字典中获取某个 key 的值
 value = dict[key]
 '''
-alien_0 = {'color':'green','points':5}
+alien_0 = {'color': 'green', 'points': 5}
 print(alien_0)
 print(alien_0['color'])
 '''
@@ -32,7 +32,7 @@ dict = {} 使用空的大括号定义一个空的字典
 存储用户提供的数据或者
 程序逻辑自动产生大量键值对数据的情况下
 使用空字典
-''' 
+'''
 alien_0 = {}
 print(alien_0)
 alien_0['galaxy'] = 'Abadango'
@@ -71,7 +71,7 @@ optional_val 是可选传参，当key对应的value不存在时返回 optional_v
 '''
 second_station = solar_stations.get('2nd')
 print(second_station)
-fourth_station_with_notice = solar_stations.get('4th','solar 4th station is building ... ')
+fourth_station_with_notice = solar_stations.get('4th', 'solar 4th station is building ... ')
 print(fourth_station_with_notice)
 fourth_station = solar_stations.get('4th')
 print(fourth_station)

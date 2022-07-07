@@ -9,21 +9,20 @@
 4、比较规则大小写敏感 为此额外创建2个新的列表 确保其中的字母都是小写以及大写
 '''
 
-
-current_user = ['James','Bond','RAT','cloud','brondy']
-new_users = ['McHale','Stein','Jones','BOND','rat']
+current_user = ['James', 'Bond', 'RAT', 'cloud', 'brondy']
+new_users = ['McHale', 'Stein', 'Jones', 'BOND', 'rat']
 current_user_upper = []
 current_user_lower = []
 
-while current_user :
+while current_user:
     user = current_user.pop()
     current_user_lower.append(user.lower())
     current_user_upper.append(user.upper())
 
 print(current_user_lower)
 print(current_user_upper)
-for user_name in new_users :
-    if user_name in current_user or user_name in current_user_lower or user_name in current_user_upper :
-        print(f'sorry , {user_name} are taken by someone.') 
-    else :
+for user_name in new_users:
+    if user_name in current_user or user_name in current_user_lower or user_name in current_user_upper:
+        print(f'sorry , {user_name} are taken by someone.')
+    else:
         print(f'{user_name} is avalable.')

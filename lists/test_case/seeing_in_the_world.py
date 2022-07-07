@@ -15,11 +15,11 @@ reverse() 翻转列表，打印列表
 使用 sort() 方法逆字典序对列表排序，打印列表
 '''
 
-places = ['Wuyang','Xizang','Moscow','Hangzhou','Xinjiang']
+places = ['Wuyang', 'Xizang', 'Moscow', 'Hangzhou', 'Xinjiang']
 print(places)
 print(sorted(places))
 print(places)
-print(sorted(places,reverse=True))
+print(sorted(places, reverse=True))
 print(places)
 places.reverse()
 print(places)

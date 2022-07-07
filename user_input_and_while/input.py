@@ -29,10 +29,10 @@ print(input(prompt))
 input() 函数 Python 将用户输入的信息解释成 String
 对于需要对用户录入的信息作为数字进行处理的情况
 使用 int() 方法将其转换为数字
-''' 
+'''
 age = input('How old are you ? ')
 age = int(age)
-if age >= 18 :
+if age >= 18:
     print(f"you are {age} years old, you can take it.")
-else :
+else:
     print(f"young man")

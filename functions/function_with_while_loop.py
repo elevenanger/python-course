@@ -5,10 +5,11 @@
 @Desc    :   在函数中使用循环
 '''
 
-def person_info_collection(limit=3) :
+
+def person_info_collection(limit=3):
     circle_number = 0
     persons = {}
-    while circle_number < limit :
+    while circle_number < limit:
         person = {}
         name = input('input your name : ')
         age = input('input your age : ')
@@ -17,5 +18,6 @@ def person_info_collection(limit=3) :
         persons[circle_number] = person
         circle_number += 1
     print(persons)
+
 
 person_info_collection(limit=5)

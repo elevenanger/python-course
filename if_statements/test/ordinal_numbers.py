@@ -11,16 +11,16 @@
 '''
 
 numbers = []
-for number in range(1,10) :
+for number in range(1, 10):
     numbers.append(number)
 print(numbers)
 
-for number in numbers :
-    if number == 1 :
+for number in numbers:
+    if number == 1:
         print(f'{number}st')
-    elif number == 2 :
+    elif number == 2:
         print(f'{number}nd')
-    elif number == 3 :
+    elif number == 3:
         print(f'{number}rd')
-    else :
+    else:
         print(f'{number}th')

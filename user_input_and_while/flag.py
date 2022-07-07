@@ -11,10 +11,10 @@
 这个变量称之为“标识”或者“信号”
 '''
 prompt = 'say something : '
-active= True
-while active :
+active = True
+while active:
     message = input(prompt)
     if message == 'quit':
         active = False
-    else :
+    else:
         print(message)

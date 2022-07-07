@@ -6,12 +6,12 @@
 '''
 
 terms = {
-    'key' : '字典中的键',
-    'value' : '字典中的值',
-    'dict.items()' : '字典中元素的集合',
-    'dict.keys()' : '字典键的列表',
-    'dict.values()' : '字典值列表',
+    'key': '字典中的键',
+    'value': '字典中的值',
+    'dict.items()': '字典中元素的集合',
+    'dict.keys()': '字典键的列表',
+    'dict.values()': '字典值列表',
 }
 
-for term , meaning in terms.items() :
+for term, meaning in terms.items():
     print(f'{term} means {meaning}')

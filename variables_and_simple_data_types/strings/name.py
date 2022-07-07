@@ -4,5 +4,5 @@ name = "anger liu"
 print(name.title())
 print(name.upper())
 print(name.lower())
-name.title() # 不改变变量的值 
-print(name) 
+name.title()  # 不改变变量的值
+print(name)

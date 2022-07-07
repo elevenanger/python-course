@@ -6,15 +6,15 @@
 '''
 
 current_number = 0
-while current_number < 10 :
+while current_number < 10:
     current_number += 1
-    if current_number == 5 :
+    if current_number == 5:
         continue
-    else :
+    else:
         print(current_number)
 
-for number in range(10) :
-    if number == 6 :
+for number in range(10):
+    if number == 6:
         continue
-    else :
+    else:
         print(number)

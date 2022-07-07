@@ -9,18 +9,18 @@
 '''
 
 prompt = 'how old are you : '
-while True :
+while True:
     price = 15
     msg = input(prompt)
-    if msg == 'quit' :
+    if msg == 'quit':
         print('see you ')
         break
     age = int(msg)
-    if age <= 0 and age > 150 :
+    if age <= 0 and age > 150:
         print('You are miracle')
         break
-    elif age > 0 and age < 3 :
+    elif age > 0 and age < 3:
         price = 0
-    elif age >= 3 and age <= 12 :
+    elif age >= 3 and age <= 12:
         price = 10
     print(f"you need to pay {price} for the ticket ")

@@ -5,7 +5,7 @@
 @Desc    :   修改列表
 '''
 
-animals = ['rat','rabbit','tiger','chicken','cow','bull']
+animals = ['rat', 'rabbit', 'tiger', 'chicken', 'cow', 'bull']
 print(animals)
 # 修改列表中的元素 list[index] = newVal
 animals[1] = 'pig'
@@ -43,8 +43,8 @@ index < 0 在 list[index] 之前插入元素
 '''
 new_zoo = initial_zoo;
 print(new_zoo)
-new_zoo.insert(0,'fenix')
-new_zoo.insert(-1,'dragon')
+new_zoo.insert(0, 'fenix')
+new_zoo.insert(-1, 'dragon')
 print(new_zoo)
 print(initial_zoo)
 

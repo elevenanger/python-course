@@ -7,13 +7,15 @@
 另外接收任意数量的关键字参数
 '''
 
-def make_car(brand,model,**other_info) :
+
+def make_car(brand, model, **other_info):
     car = {}
     car['brand'] = brand.title()
     car['model'] = model.title()
-    for k,v in other_info.items() :
+    for k, v in other_info.items():
         car[k] = v
     return car
 
-my_car = make_car('infiniti','q50',color='blue',version='3rd')
+
+my_car = make_car('infiniti', 'q50', color='blue', version='3rd')
 print(my_car)

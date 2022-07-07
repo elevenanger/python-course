@@ -15,17 +15,17 @@
 定义元组: tuple = (val1,val2)
 获取元素 elementVal = tuple[index]
 '''
-ori_tuple = (10,20)
+ori_tuple = (10, 20)
 print(ori_tuple[0])
 print(ori_tuple[-1])
 # 如果定义只有一个元素的元组，也需要在唯一一个元素后面带上 ,
 one_element_tuple = (1,)
 print(one_element_tuple[0])
 # 遍历元组的方式也和遍历 list 的方法一样
-for ele in ori_tuple :
+for ele in ori_tuple:
     print(f'ori_tuple element value : {ele}')
-ori_tuple = (100,200)
+ori_tuple = (100, 200)
 # 元组中的元素不能变,但是元组可以重新赋值
 # 如果想要变更元组，需要重新定义整个元组
-for ele in ori_tuple :
-    print(f'changed tuple element value : {ele}' )
+for ele in ori_tuple:
+    print(f'changed tuple element value : {ele}')

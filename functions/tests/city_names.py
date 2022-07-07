@@ -10,12 +10,14 @@
 
 location = []
 
-def city_names(city,country = 'china') :
+
+def city_names(city, country='china'):
     return f'"{city.title()}, {country.title()}"'
+
 
 location.append(city_names('chang sha'))
 location.append(city_names(city='wu han'))
-location.append(city_names(city='chicago',country='american'))
+location.append(city_names(city='chicago', country='american'))
 
-while location :
+while location:
     print(location.pop())

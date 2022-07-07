@@ -10,4 +10,4 @@
 
 import printing_functions as pf
 
-pf.printing_function('bla','blabla','blablabla')
+pf.printing_function('bla', 'blabla', 'blablabla')

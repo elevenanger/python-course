@@ -11,7 +11,7 @@ from mudule import Class
 导入类后即可创建该类实例
 使用类中定义的方法
 '''
-from car import Car 
+from car import Car
 
-my_new_car = Car('ifiniti','q50','2020')
+my_new_car = Car('ifiniti', 'q50', '2020')
 print(my_new_car.get_full_name())

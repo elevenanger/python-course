@@ -8,10 +8,10 @@
 '''
 
 
-def make_album(limit=3) :
+def make_album(limit=3):
     albums = {}
     count = 0
-    while count < limit :
+    while count < limit:
         album = {}
         artist = input('enter artist : ')
         title = input('enter title : ')
@@ -23,16 +23,19 @@ def make_album(limit=3) :
         albums[count] = album
     return albums
 
+
 albums = make_album()
 
-def format_index(index) :
-    if(index == 1) : return f'1st'
-    if(index == 2) : return f'2nd'
-    if(index == 3) : return f'3rd'
+
+def format_index(index):
+    if (index == 1): return f'1st'
+    if (index == 2): return f'2nd'
+    if (index == 3): return f'3rd'
     return f'{index}th'
 
-for index,album in albums.items() :
+
+for index, album in albums.items():
     print(f'{format_index(index)} album : ')
-    for key,info in album.items() :
+    for key, info in album.items():
         print(f'\t{key} : {info}')
     print('---------')

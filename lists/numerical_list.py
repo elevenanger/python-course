@@ -16,21 +16,20 @@ range(start,end,skip_number)
 '''
 from cgi import print_arguments
 
-
-for number in range(1,5) :
+for number in range(1, 5):
     print(number)
-for number in range(5) : 
+for number in range(5):
     print(number)
 # 使用 range() 创建数字列表
 numbers = list(range(7))
-for number in numbers : 
+for number in numbers:
     print(number)
 # range(arg1,arg2,args) arg3 指定步长
-even_numbers = list(range(2,11,2))
-for number in even_numbers :
+even_numbers = list(range(2, 11, 2))
+for number in even_numbers:
     print(number)
 squares = []
-for number in range(11) :
+for number in range(11):
     squares.append(number ** 2)
 print(squares)
 
@@ -51,6 +50,5 @@ print(sum(digits))
 并且自动添加每个元素到列表中
 list = [element_value_expression for element_value in range(args)]
 '''
-squares = [value**2 for value in range(0,15,3)]
+squares = [value ** 2 for value in range(0, 15, 3)]
 print(squares)
-

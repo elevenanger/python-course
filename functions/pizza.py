@@ -6,7 +6,7 @@
 '''
 
 
-def make_pizza(size,*toppings) :
+def make_pizza(size, *toppings):
     print(f'make {size} inch pizza : ')
-    for topping in toppings :
+    for topping in toppings:
         print(f'\t{topping}')
